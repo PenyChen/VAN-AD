@@ -1,0 +1,1 @@
+python main.py --config ./config/exp/pump.yaml

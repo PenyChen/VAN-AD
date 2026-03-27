@@ -1,0 +1,44 @@
+# model config
+arch: "mae_base"
+finetune_type: "none"
+ckpt_dir: "./ckpt/"
+load_ckpt: true
+seq_len: 100
+periodicity: 10
+norm_const : 0.4
+image_method: "multi_var"
+image_mask: "complementary"
+task: "rec"
+denormalize: true
+use_new_nf: true
+
+# nf config
+use_nf: true
+n_blocks: 2
+n_sensor: 1
+input_size: 1
+hidden_size: 32
+n_hidden: 1
+cond_label_size: 32
+activation: "tanh"
+input_order: "sequential"
+batch_norm: false
+lambda_nf: 0.001
+lambda_rec: 1
+nf_mode: "rand"
+
+# data config
+data: "msl"
+data_path: "./data/msl"
+batch_size: 128
+num_workers: 4
+data_ratio: 1.0
+num_vars: 1
+
+# exp config
+mode: 'nf-train'
+exp_name: "msl"
+pic_save_path: "./visual_pic/"
+epochs: 5
+lr: 0.005
+anormly_ratio: 20

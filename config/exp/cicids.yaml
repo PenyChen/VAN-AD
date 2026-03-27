@@ -1,0 +1,44 @@
+# model config
+arch: "mae_base"
+finetune_type: "none"
+ckpt_dir: "./ckpt/"
+load_ckpt: true
+seq_len: 196
+periodicity: 14
+image_method: "multi_var"
+image_mask: "complementary"
+task: "rec"
+denormalize: true
+use_new_nf: true
+
+# nf config
+use_nf: true
+n_blocks: 5
+n_sensor: 72
+input_size: 72
+hidden_size: 256
+n_hidden: 2
+cond_label_size: 0
+activation: "tanh"
+input_order: "sequential"
+batch_norm: false
+lambda_nf: 1
+lambda_rec: 1
+nf_mode: "rand"
+
+# data config
+data: "tab"
+data_path: "./data/tab"
+tab_csv_file: "CICIDS.csv"
+batch_size: 128
+num_workers: 4
+data_ratio: 1
+
+# exp config
+mode: "nf-train"
+exp_name: "tab"
+pic_save_path: "./visual_pic/"
+epochs: 5
+lr: 0.001
+anormly_ratio: 0.9
+

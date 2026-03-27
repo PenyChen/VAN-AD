@@ -1,4 +1,4 @@
-# <img src="docs/title.png" alt="Image description" style="width:10px;height:10px;"> VAN-AD: Visual Masked Autoencoder with Normalizing Flow For Time Series Anomaly Detection
+# <img src="docs/title.png" alt="Image description" style="width:40px;height:40px;"> VAN-AD: Visual Masked Autoencoder with Normalizing Flow For Time Series Anomaly Detection
 
 **Official PyTorch implementation of the paper: VAN-AD: Visual Masked Autoencoder with Normalizing Flow For Time Series Anomaly Detection.**
 

@@ -69,7 +69,10 @@ We acknowledge the following open-source projects for their outstanding contribu
   year      = {2025}
 } -->
 
+## 🙏 Acknowledgements
+We acknowledge the following open-source projects for their outstanding contributions to the field:
 
+- TAB: Unified Benchmarking of Time Series Anomaly Detection Methods（https://github.com/decisionintelligence/TAB）
 
 ## ✉️ Contact
 

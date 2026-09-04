@@ -4,7 +4,7 @@
 
 If **VAN-AD** helps your research, please consider giving us a ⭐ star!
 
-[![Python](https://img.shields.io/badge/Python-3.8%2B-blue)](https://www.python.org/)  [![PyTorch](https://img.shields.io/badge/PyTorch-2.4.1-blue)](https://pytorch.org/)
+[![Python](https://img.shields.io/badge/Python-3.8%2B-blue)](https://www.python.org/) [![PyTorch](https://img.shields.io/badge/PyTorch-2.4.1-blue)](https://pytorch.org/) [![arXiv](https://img.shields.io/badge/arXiv-2603.26842-b31b1b.svg)](https://arxiv.org/abs/2603.26842)
 
 ## 💡 Overview
 **VAN-AD**, a novel framework that adapts a pre-trained visual Masked Autoencoder (MAE) to TSAD. To alleviate the over-generalization issue of MAE, we design an **Adaptive Distribution Modulation Module (ADMM)**, which recalibrates MAE reconstructions based on local window statistics to preserve and amplify reconstruction discrepancies associated with anomalous patterns. To overcome the limitation of local perception, we further develop a **Normalizing Flow Module (NFM)**, which models the global distribution of normal patterns and estimates the probability density of each window, thereby providing a complementary global anomaly signal.

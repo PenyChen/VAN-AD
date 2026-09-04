@@ -55,7 +55,7 @@ We acknowledge the following open-source projects for their outstanding contribu
 
 If you have any questions or suggestions, feel free to contact:
 - [PengYu Chen]  (penychen@bupt.edu.cn)
-- [Shang Wan]  (wangshang@bupt.cn)
+- [Shang Wang]  (wangshang@bupt.cn)
 
 - Or describe it in Issues.
 

@@ -29,7 +29,7 @@ Regarding the remaining datasets, we follow the TAB data processing pipeline. Do
 
 ### Train & Evaluation
 
-- **Model Definition**: Explore the core logic in [here](./van-ad/vanad_model.py).
+- **Model Definition**: Explore the core logic in [here](./vanad/vanad_model.py).
 - **Reproduction**: Run the provided scripts to replicate our results. For instance, to test on the PSM dataset:
 
 ```shell

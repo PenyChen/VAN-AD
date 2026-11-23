@@ -4,6 +4,7 @@
 __pycache__/
 *.py[cod]
 *.so
+*.zip
 *.egg-info/
 .dist-info/
 
@@ -25,7 +26,9 @@ venv/
 logs/
 output/
 results/
-visual_pic/
+visualization_final/
+visualize_intro/psm/
+model_save/
 *.log
 # =====================
 # Deep Learning
@@ -45,6 +48,8 @@ ckpt/*
 *.csv
 *.h5
 *.txt
+data/
+data_full/
 
 # =====================
 # OS

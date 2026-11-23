@@ -4,7 +4,7 @@
 </h1>
 
 <p align="center">
-  <strong>Official PyTorch implementation of our IEEE Transactions on Dependable and Secure Computing (TDSC, CCF-A) paper.</strong>
+  <strong>Official PyTorch implementation of our IEEE Transactions on Dependable and Secure Computing (TDSC) paper.</strong>
 </p>
 
 <p align="center">
@@ -43,7 +43,7 @@ VAN-AD combines reconstruction-based anomaly evidence with global distribution m
 
 ## 📰 Publication
 
-Our paper has been accepted by **IEEE Transactions on Dependable and Secure Computing (TDSC)**, a **CCF-A** journal.
+Our paper has been accepted by **IEEE Transactions on Dependable and Secure Computing (TDSC)**.
 
 - **Title:** VAN-AD: Visual Masked Autoencoder with Normalizing Flow for Time Series Anomaly Detection
 - **Journal:** IEEE Transactions on Dependable and Secure Computing
